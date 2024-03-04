@@ -28,3 +28,6 @@ hugo mod tidy
 ```
 
 See [Update modules](https://gohugo.io/hugo-modules/use-modules/#update-modules) for more details.
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88303fd9-ae09-4c0f-8b8c-3c8224a072bd/deploy-status)](https://app.netlify.com/sites/catisland-network/deploys)
