@@ -13,14 +13,25 @@ disableSidebar: false
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
   
-<div class="mb-6">
-{{< hero-button-primary text="文章" link="docs/" >}}
-{{< hero-button-secondary text="鏈接" link="links/" >}}
-{{< hero-button-secondary text="疑問解答" link="fqa/" >}}
-{{< hero-button-secondary text="關於我們" link="about/" >}}
-{{< hero-button-secondary text="聯係我們" link="contact/" >}}
-{{< hero-button-secondary text="加入我們" link="join/" >}}
-</div>
+  actions:
+    - theme: brand
+      text: 文章
+      link: /posts
+    - theme: alt
+      text: 鏈接
+      link: /links
+    - theme: alt
+      text: 我們的成員們
+      link: /people
+    - theme: alt
+      text: 疑問解答
+      link: /FQA
+    - theme: alt
+      text: 加入我們
+      link: /join
+    - theme: alt
+      text: 員工登錄
+      link: /Employee_login
 
 > 你好呀，這裏是CatisLand NetWork的about網頁，你可以在這裏瞭解屬於我們的一切。我們是一個非營利性組織，目前的目標是為跨性別人群提供優質的科普文檔，你也許還記得RuriZine和New Systemspace，不要擔心，我們目前正在對它們進行積極的維護，你可以訪問我們的[主站](https://new.systemspace.network/content/ath/404.html)來追蹤我們的活動，另外我們的目標一直是提跨性別群體的社會關注度和改善社群環境，目前未曾動搖。另外，我們目前最重要的工作就是重新創造一個可以長久運營的跨性別死難者紀念館，我們堅信這是一份偉大的工作。
 
