@@ -58,10 +58,10 @@ menu:
         icon: x-twitter
 params:
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
-      path: /static/logo.svg
+      path: images/logo.svg
       link: /
       width: 40
       height: 20
