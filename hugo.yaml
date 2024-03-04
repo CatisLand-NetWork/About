@@ -63,7 +63,7 @@ params:
     logo:
       path: images/logo.svg
       link: /
-      width: 109
+      width: 140
       height: 40
   theme:
     # light | dark | system
