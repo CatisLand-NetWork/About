@@ -18,39 +18,67 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: 文章
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: 鏈接
+      pageRef: /links
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: 疑問解答
+      pageRef: /fqa
       weight: 3
-    - name: Search
+    - name: 關於我們
+      pageRef: /about
       weight: 4
-      params:
-        type: search
-    - name: GitHub
+    - name: 聯係我們
+      pageRef: /contact
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+    - name: 加入我們
+      pageRef: /join
+      weight: 6
+    - name: 我們的成員們
+      pageRef: /people
+      weight: 7
+    - name: 員工登錄
+      pageRef: /Employee_login
+      weight: 8
+    - name: 搜索
+      weight: 
+      params:
+        type: search      
+    - name: GitHub
+      weight: 
+      url: "https://github.com/CatisLand-NetWork"
       params:
         icon: github
     - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
+      weight: 
+      url: "https://twitter.com/MashiroSaber36"
       params:
         icon: x-twitter
-
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: /static/logo.svg
+      link: /
+      width: 40
+      height: 20
+  theme:
+    # light | dark | system
+    default: light
+    displayToggle: false
 
   footer:
     displayCopyright: false
     displayPoweredBy: true
 
+
   editURL:
     enable: true
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  services:
+    googleAnalytics:
+    ID: G-Z4NDTNSWGG
